@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { EditorComponent } from './editor/editor.component';
+import { HeaderNavComponent } from './header-nav/header-nav.component';
 
 
 const routes: Routes = [
   {
-    component: EditorComponent,
+    component: HeaderNavComponent,
     path: ''
+  }, {
+    component: EditorComponent,
+    path: 'edit'
   }
 ];
 
