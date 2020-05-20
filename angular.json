@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "An-Design": {
+    "cinematic-diary": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/An-Design",
+            "outputPath": "dist/Cinematic Diary",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "An-Design:build"
+            "browserTarget": "cinematic-diary:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "An-Design:build:production"
+              "browserTarget": "cinematic-diary:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "An-Design:build"
+            "browserTarget": "cinematic-diary:build"
           }
         },
         "test": {
@@ -114,18 +114,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "An-Design:serve"
+            "devServerTarget": "Cinematic Diary:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "An-Design:serve:production"
+              "devServerTarget": "Cinematic Diary:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "An-Design",
+  "defaultProject": "Cinematic Diary",
   "cli": {
     "analytics": "0d42412e-0fc0-4224-9065-8645e1048915"
   }

@@ -17,11 +17,13 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { EditorComponent } from './editor/editor.component';
+import { HeaderNavComponent } from './header-nav/header-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EditorComponent
+    EditorComponent,
+    HeaderNavComponent
   ],
   imports: [
     AppRoutingModule,
